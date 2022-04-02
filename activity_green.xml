@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".green">
+
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="SIMON GAME"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <Button
+        android:id="@+id/greenbtn"
+        android:layout_width="342dp"
+        android:layout_height="78dp"
+        android:layout_marginTop="160dp"
+        android:background="#25B148"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/yellowbtn"
+        android:layout_width="342dp"
+        android:layout_height="78dp"
+        android:layout_marginTop="52dp"
+        android:background="#FDD400"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/greenbtn" />
+
+    <Button
+        android:id="@+id/redbtn"
+        android:layout_width="342dp"
+        android:layout_height="78dp"
+
+        android:layout_marginTop="52dp"
+        android:background="#FD0000"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/yellowbtn" />
+
+    <Button
+        android:id="@+id/bluebtn"
+        android:layout_width="342dp"
+        android:layout_height="78dp"
+        android:layout_marginTop="52dp"
+        android:background="#0189FF"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/redbtn" />
+
+
+    <Button
+        android:id="@+id/restartbtn"
+        android:layout_width="342dp"
+        android:layout_height="78dp"
+        android:layout_marginTop="52dp"
+        android:background="#9813F8"
+        android:textSize="45sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="Restart"
+        android:textColor="@color/white"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/yellowbtn"
+        android:visibility="invisible"/>
+
+
+
+    <Button
+        android:id="@+id/quit"
+        android:layout_width="144dp"
+        android:layout_height="73dp"
+        android:background="#C6BA8E"
+        android:text="Quit"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/Highscore"
+        android:layout_width="129dp"
+        android:layout_height="75dp"
+        android:background="#C6BA8E"
+        android:text="Highscore"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
